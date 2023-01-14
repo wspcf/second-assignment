@@ -8,11 +8,46 @@
   padding: 0;
   box-sizing: border-box;
 }
-html {
-  scroll-behavior: smooth;
+body {
+  font-family: "Work Sans", sans-serif; /* Default Font */
 }
 /*
-  ********************************
+********************************
   🙂 Browser Reset Code End 🙂 
-  ********************************
+********************************
   */
+/*
+********************************
+🏃 CSS Variable Start 🏃
+********************************
+*/
+:root {
+  --cwhite: #fff;
+  --cblack: #000;
+  --mainbgc: #fff4e7;
+  --cprimary: #ff900e;
+  --csecondary: #727272;
+  --ctertiary: #131313;
+  --wrapper: 100%;
+  --wrap: 1920px;
+  --center: 0 auto;
+}
+/*
+********************************
+  🙂 CSS Variable End 🙂
+********************************
+*/
+/*
+********************************
+🏃 Default Code Start 🏃
+********************************
+*/
+/* Style For Header Area Start */
+.header_content {
+}
+/* Style For Header Area End */
+/*
+********************************
+🙂 Default Code End 🙂
+********************************
+*/
