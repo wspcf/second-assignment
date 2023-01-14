@@ -139,8 +139,8 @@ header {
   font-size: 45px;
 }
 .fc_text h2 > span {
-  color: var(--ctertiary);
-  font-weight: 500;
+  color: var(--csecondary);
+  font-weight: 400;
 }
 .fc_text h2 > p {
   color: var(--cprimary);
@@ -154,32 +154,112 @@ header {
 }
 /* Features Details Section */
 .features_details {
+  padding-top: 60px;
+  padding-left: 240px;
+  padding-right: 240px;
 }
 .features_details_content {
+  display: flex;
+  column-gap: 80px;
+  align-items: center;
 }
 .fdc_text {
+  margin-top: 40px;
+}
+#text-item-fdc h1 {
+  font-weight: 700;
+  font-size: 45px;
+  color: var(--ctertiary);
+  border-left: 5px solid var(--cprimary);
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+#text-item-fdc p {
+  color: var(--csecondary);
+  font-weight: 400;
+  font-size: 16px;
 }
 .fdc_text_items {
-}
-.fdc_text_items h1 {
-}
-.fdc_text_items h3 {
+  padding: 25px;
+  box-shadow: 0 6px 16px rgb(0 0 0 / 15%);
+  margin: 25px 0;
 }
 .fdc_text_items p {
+  color: var(--csecondary);
+  font-weight: 400;
+  font-size: 16px;
 }
+.fdc_text_items h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--ctertiary);
+  margin-bottom: 10px;
+}
+
 .fdc_banner {
 }
 .fdc_banner img {
+  width: 708px;
+  height: 950px;
 }
 .fdc_ten_year {
+  background-color: var(--cprimary);
+  text-align: center;
+  color: var(--cwhite);
+  width: 342px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+  position: relative;
+  top: -165px;
+  right: -585px;
 }
 .fdc_ten_year h1 {
+  font-weight: 700;
+  font-size: 65px;
 }
 .fdc_ten_year p {
+  font-weight: 500;
+  font-size: 25px;
 }
-#text-items-fdc {
+/* Some Facts Section  */
+.some_facts {
+  padding: 0 240px;
 }
-
+.some_facts_content {
+}
+.sfc_text {
+}
+.sfc_text h1 {
+  font-weight: 700;
+  font-size: 45px;
+  color: var(--ctertiary);
+  margin-bottom: 20px;
+}
+.sfc_text p {
+  color: var(--csecondary);
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 100px;
+}
+.sfc_summary {
+  display: flex;
+  column-gap: 120px;
+}
+.sfc_s_items {
+  border: 1px solid var(--cprimary);
+  border-radius: 5px;
+}
+.sfc_s_items h2 {
+}
+.sfc_s_items p {
+}
+/* Our Sponspors Section */
+.our_sponspors {
+  margin-top: 200px;
+}
 /* Style For Main Area End */
 
 /*
