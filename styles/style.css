@@ -38,7 +38,7 @@ body {
   --cprimary: #ff900e;
   --csecondary: #727272;
   --ctertiary: #131313;
-  --quaternary: #fff4e7;
+  --cquaternary: #fff4e7;
   --navary: #424242;
   --wrapper: 100%;
   --wrap: 1920px;
@@ -51,17 +51,33 @@ body {
 */
 /*
 ********************************
+  🏃 CSS3 Animation Start 🏃
+********************************
+*/
+@keyframes somefacts {
+  0% {
+  }
+  100% {
+  }
+}
+/*
+********************************
+🙂 CSS3 Animation End 🙂
+********************************
+*/
+/*
+********************************
 🏃 Default Code Start 🏃
 ********************************
 */
 /* Style For Header Area Start */
 header {
-  background-color: var(--quaternary);
+  background-color: var(--cquaternary);
 }
 .header_content {
   display: flex;
   justify-content: space-between;
-  padding: 50px 240px;
+  padding: 40px 240px;
   align-items: center;
 }
 .hc_logo h2 {
@@ -90,7 +106,7 @@ header {
 
 /* -- Lead Section -- */
 .lead_area {
-  background-color: var(--quaternary);
+  background-color: var(--cquaternary);
   padding-bottom: 30px;
 }
 .lead_content {
@@ -242,25 +258,100 @@ header {
   color: var(--csecondary);
   font-weight: 400;
   font-size: 16px;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 .sfc_summary {
   display: flex;
   column-gap: 120px;
+  text-align: center;
 }
 .sfc_s_items {
   border: 1px solid var(--cprimary);
   border-radius: 5px;
+  padding: 45px;
 }
 .sfc_s_items h2 {
+  font-weight: 600;
+  font-size: 38px;
+  color: var(--navary);
 }
 .sfc_s_items p {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--csecondary);
+  margin-top: 10px;
+}
+.sfc_s_items img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+/* CSS3 Animation For Some Facts Section */
+.sfc_s_items:hover img {
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
 }
 /* Our Sponspors Section */
 .our_sponspors {
-  margin-top: 200px;
+  margin-top: 150px;
+  padding: 0 240px;
+}
+.our_sponspors_content {
+}
+.osc_text {
+}
+.osc_text > h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 45px;
+  color: var(--ctertiary);
+  margin-bottom: 20px;
+}
+.osc_text > p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--csecondary);
+}
+.osc_logo {
+  margin-top: 50px;
+}
+.osc_logo_items {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  grid-column-gap: 20px;
+}
+.osc_logo_items img {
+  width: 170px;
+  height: 45px;
+  filter: grayscale(1);
 }
 /* Style For Main Area End */
+/* Style For Footer Area Start */
+footer {
+  padding: 100px 240px;
+  margin-bottom: 50px;
+}
+.footer_content {
+  background-color: var(--cquaternary);
+  padding: 35px 0px;
+}
+.footer_content p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--navary);
+}
+/* Style For Footer Area End */
 
 /*
 ********************************
