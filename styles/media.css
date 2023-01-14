@@ -67,6 +67,9 @@
     font-size: 22px;
     padding: 15px;
   }
+  .fdc_text_items {
+    margin: 25px 20px;
+  }
   .fdc_text_items h3 {
     font-size: 22px;
   }
@@ -229,6 +232,9 @@
     font-size: 17px;
     padding: 20px;
   }
+  .fdc_text_items {
+    margin: 25px 20px;
+  }
   .fdc_text_items h3 {
     font-size: 22px;
   }
@@ -384,6 +390,9 @@
   }
   #text-item-fdc p {
     font-size: 17px;
+  }
+  .fdc_text_items {
+    margin: 25px 20px;
   }
   .fdc_text_items h3 {
     font-size: 22px;
