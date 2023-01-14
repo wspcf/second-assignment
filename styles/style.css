@@ -12,21 +12,6 @@
 body {
   font-family: "Work Sans", sans-serif;
 }
-/* Default Button */
-.primary_btn {
-  border: none;
-  padding: 15px 20px;
-  background-color: var(--cprimary);
-  color: var(--cwhite);
-  font-size: 20px;
-  font-weight: 600;
-  border-radius: 5px;
-}
-/*
-********************************
-  🙂 Browser Reset Code End 🙂 
-********************************
-  */
 /*
 ********************************
 🏃 CSS Variable Start 🏃
@@ -49,15 +34,45 @@ body {
   🙂 CSS Variable End 🙂
 ********************************
 */
+/* Default Button */
+.primary_btn {
+  border: none;
+  padding: 15px 20px;
+  background-color: var(--cprimary);
+  color: var(--cwhite);
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+/*
+********************************
+  🙂 Browser Reset Code End 🙂 
+********************************
+  */
+
 /*
 ********************************
   🏃 CSS3 Animation Start 🏃
 ********************************
 */
-@keyframes somefacts {
+/* For Some Facts */
+@keyframes somefactsh2 {
   0% {
+    color: var(--cprimary);
+    font-weight: 200;
   }
   100% {
+    color: var(--ctertiary);
+    font-weight: 600;
+  }
+}
+/* For Extra Work */
+@keyframes ewicon {
+  0% {
+    color: var(--c_white);
+  }
+  100% {
+    color: #ddd;
   }
 }
 /*
@@ -139,7 +154,7 @@ header {
 }
 .features_content {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   column-gap: 60px;
 }
 .fc_gallery {
@@ -198,7 +213,7 @@ header {
 .fdc_text_items {
   padding: 25px;
   box-shadow: 0 6px 16px rgb(0 0 0 / 15%);
-  margin: 25px 0;
+  margin: 25px 45px;
 }
 .fdc_text_items p {
   color: var(--csecondary);
@@ -210,9 +225,6 @@ header {
   font-size: 20px;
   color: var(--ctertiary);
   margin-bottom: 10px;
-}
-
-.fdc_banner {
 }
 .fdc_banner img {
   width: 708px;
@@ -244,10 +256,6 @@ header {
 .some_facts {
   padding: 0 240px;
 }
-.some_facts_content {
-}
-.sfc_text {
-}
 .sfc_text h1 {
   font-weight: 700;
   font-size: 45px;
@@ -274,6 +282,15 @@ header {
   font-weight: 600;
   font-size: 38px;
   color: var(--navary);
+  animation-name: somefactsh2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
 }
 .sfc_s_items p {
   font-weight: 600;
@@ -285,6 +302,7 @@ header {
   width: 50px;
   height: 50px;
   margin-bottom: 5px;
+
   transition: 0.4s;
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
@@ -293,20 +311,17 @@ header {
 }
 /* CSS3 Animation For Some Facts Section */
 .sfc_s_items:hover img {
-  transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  -o-transform: scale(1.5);
+  transition-duration: 1s;
+  transform: rotate3d(1, 1, 1, 360deg) scale(1.7);
+  -webkit-transform: rotate3d(1, 1, 1, 360deg) scale(1.7);
+  -moz-transform: rotate3d(1, 1, 1, 360deg) scale(1.7);
+  -ms-transform: rotate3d(1, 1, 1, 360deg) scale(1.7);
+  -o-transform: rotate3d(1, 1, 1, 360deg) scale(1.7);
 }
 /* Our Sponspors Section */
 .our_sponspors {
   margin-top: 150px;
   padding: 0 240px;
-}
-.our_sponspors_content {
-}
-.osc_text {
 }
 .osc_text > h1 {
   text-align: center;
@@ -336,6 +351,154 @@ header {
   filter: grayscale(1);
 }
 /* Style For Main Area End */
+/* Style For Extra Work Area Start */
+.extra_work {
+  background-color: var(--cwhite);
+  height: auto;
+  padding: 60px 240px;
+}
+.ew_title {
+  font-size: 80px;
+  color: var(--csecondary);
+  font-weight: 100;
+  font-style: italic;
+  padding-bottom: 10px;
+  text-align: center;
+  padding-top: 30px;
+}
+.ew_sub_title {
+  text-align: center;
+  font-size: 25px;
+  color: var(--cprimary);
+  font-weight: 400;
+}
+.ew_container {
+  display: grid;
+  padding: 100px 0 0;
+  grid-template-columns: repeat(2, 1fr);
+}
+.ew_item {
+  padding: 20px;
+}
+.ew_item_content {
+  position: relative;
+  height: 250px;
+  margin-right: 25px;
+  -webkit-border-radius: 5px;
+  margin-top: 100px;
+  transition: 0.5s;
+  transition-delay: 0.4s;
+  cursor: pointer;
+  border: 1px solid var(--csecondary);
+}
+.ew_item_content:hover {
+  transition-delay: 0s;
+  height: 500px;
+  margin-top: 0px;
+  box-shadow: 0px 8px 24px 0px var(--cprimary);
+  border-radius: 30%;
+}
+.ew_ic_thumb {
+  width: 60%;
+  position: relative;
+  left: 22%;
+  top: -80px;
+  height: 328px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 260px;
+  background-color: var(--cblack);
+  opacity: 0.5;
+  z-index: 999999;
+  border-radius: 100%;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+.ew_item_content:hover .overlay {
+  background-color: transparent;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+.ew_ic_thumb img {
+  width: 100%;
+  height: 260px;
+  border-radius: 100%;
+  object-fit: cover;
+  border: 2px dashed var(--csecondary);
+  padding: 5px;
+}
+
+.ew_ic_desc {
+  text-align: center;
+  padding: 25px;
+  position: relative;
+  top: -140px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+}
+.ew_item_content:hover .ew_ic_desc {
+  transition-delay: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  visibility: visible;
+  opacity: 1;
+}
+.ew_icon {
+  font-size: 30px;
+  color: var(--csecondary);
+  margin-top: 20px;
+  animation: ewicon;
+  -webkit-animation: ewicon;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.ew_item_content:hover .ew_icon {
+  display: none;
+  transition-delay: 0s;
+}
+.ew_ic_desc h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.ew_ic_desc p {
+  font-size: 18px;
+  line-height: 25px;
+}
+.ew_ic_desc button {
+  background-color: var(--cprimary);
+  border: none;
+  padding: 10px 20px;
+  color: var(--cwhite);
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition-delay: 0s;
+}
+/* Style For Extra Work Area End */
 /* Style For Footer Area Start */
 footer {
   padding: 100px 240px;

@@ -1,0 +1,479 @@
+/*
+********************************
+🏃 Responsive Code Start 🏃
+********************************
+*/
+@media only screen and (min-width: 993px) {
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  /*Header Area*/
+  .header_content {
+    padding: 10px 10px;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .lc_banner img {
+    height: 380px;
+  }
+  /* Lead Area */
+  .lead_content {
+    padding: 10px 10px;
+  }
+  .lc_text h1 {
+    font-size: 45px;
+  }
+  .lc_text p {
+    padding: 0 30px;
+  }
+  /* Features Area */
+  .features_area {
+    padding: 70px 10px;
+  }
+  .features_content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .fc_items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .fc_items img {
+    width: var(--wrapper);
+  }
+  .fc_text {
+    margin-top: 40px;
+  }
+  .fc_text h2 {
+    font-size: 42px;
+  }
+  .fc_description {
+    font-size: 22px;
+    padding: 15px;
+  }
+  /* Features Details Area */
+  .features_details {
+    padding: 0px 10px;
+  }
+  .features_details_content {
+    flex-direction: column;
+  }
+  .fdc_text {
+    text-align: center;
+  }
+  #text-item-fdc h1 {
+    font-size: 38px;
+  }
+  #text-item-fdc p {
+    font-size: 22px;
+    padding: 15px;
+  }
+  .fdc_text_items h3 {
+    font-size: 22px;
+  }
+  .fdc_text_items p {
+    font-size: 18px;
+  }
+  .fdc_banner img {
+    width: var(--wrapper);
+    height: 975px;
+  }
+  .fdc_ten_year {
+    right: -30%;
+    top: 15px;
+  }
+  /* Some Facts Area */
+  .some_facts {
+    padding: 60px 10px;
+  }
+  .sfc_summary {
+    column-gap: 10px;
+    justify-content: center;
+  }
+  .sfc_s_items {
+    padding: 20px;
+  }
+  .sfc_text {
+    text-align: center;
+  }
+  .sfc_text p {
+    font-size: 18px;
+    padding: 20px;
+  }
+  .sfc_text h1 {
+    font-size: 38px;
+  }
+  /* Our Sponspors Area */
+  .our_sponspors {
+    padding: 5px 10px;
+    margin-top: 0px;
+  }
+  .osc_text > h1 {
+    font-size: 38px;
+  }
+  .osc_text > p {
+    font-size: 18px;
+    padding: 20px;
+  }
+  .osc_logo_items {
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+  }
+  .osc_logo_items img {
+    width: var(--wrapper);
+    height: 100%;
+    padding: 10px 50px;
+  }
+  /* -- Extra Work Area -- */
+  .extra_work {
+    padding: 30px 10px;
+  }
+  .ew_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .ew_title {
+    padding: 35px;
+  }
+  .ew_item_content {
+    margin-right: 0;
+  }
+  .ew_item_content:hover {
+    height: 580px;
+  }
+  .ew_item {
+    padding: 60px;
+  }
+  .ew_ic_thumb {
+    height: 261px;
+  }
+  .ew_ic_thumb img {
+    border: none;
+  }
+  .overlay {
+    height: 255px;
+  }
+  .ew_ic_desc {
+    top: -70px;
+  }
+  /* Footer Area */
+  footer {
+    padding: 30px 10px;
+  }
+  .footer_content p {
+    padding: 10px;
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+  /*Header Area*/
+  .header_content {
+    padding: 10px 10px;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .hc_nav {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .lc_banner img {
+    height: 350px;
+  }
+  /* Lead Area */
+  .lead_content {
+    padding: 10px 10px;
+  }
+  .lc_text h1 {
+    font-size: 45px;
+  }
+  .lc_text p {
+    padding: 0 30px;
+  }
+  /* Features Area */
+  .features_area {
+    padding: 70px 10px;
+  }
+  .features_content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .fc_items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .fc_items img {
+    width: 500px;
+  }
+  .fc_text {
+    margin-top: 40px;
+  }
+  .fc_text h2 {
+    font-size: 38px;
+  }
+  .fc_description {
+    font-size: 18px;
+    padding: 40px;
+  }
+  /* Features Details Area */
+  .features_details {
+    padding: 0px 10px;
+  }
+  .features_details_content {
+    flex-direction: column;
+  }
+  .fdc_text {
+    text-align: center;
+  }
+  #text-item-fdc h1 {
+    font-size: 38px;
+  }
+  #text-item-fdc p {
+    font-size: 17px;
+    padding: 20px;
+  }
+  .fdc_text_items h3 {
+    font-size: 22px;
+  }
+  .fdc_text_items p {
+    font-size: 18px;
+  }
+  .fdc_banner img {
+    width: var(--wrapper);
+    height: 750px;
+  }
+  .fdc_ten_year {
+    right: -20%;
+    top: 15px;
+  }
+  /* Some Facts Area */
+  .some_facts {
+    padding: 60px 10px;
+  }
+  .sfc_summary {
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 50px;
+    margin-top: -35px;
+  }
+  .sfc_text {
+    text-align: center;
+  }
+  .sfc_text p {
+    font-size: 18px;
+    padding: 20px;
+  }
+  .sfc_text h1 {
+    font-size: 38px;
+  }
+  /* Our Sponspors Area */
+  .our_sponspors {
+    padding: 5px 10px;
+    margin-top: 0px;
+  }
+  .osc_text > h1 {
+    font-size: 38px;
+  }
+  .osc_text > p {
+    font-size: 18px;
+    padding: 20px;
+  }
+  .osc_logo_items {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+  }
+  .osc_logo_items img {
+    width: var(--wrapper);
+    height: 100%;
+    padding: 10px 75px;
+  }
+  /* -- Extra Work Area -- */
+  .extra_work {
+    padding: 30px 10px;
+  }
+  .ew_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .ew_title {
+    padding: 35px;
+  }
+  .ew_item_content {
+    margin-right: 0;
+  }
+  .ew_item_content:hover {
+    height: 580px;
+  }
+  .ew_item {
+    padding: 60px;
+  }
+  .ew_ic_thumb {
+    height: 261px;
+  }
+  .ew_ic_thumb img {
+    border: none;
+  }
+  .overlay {
+    height: 210px;
+  }
+  .ew_ic_desc {
+    top: -70px;
+  }
+  /* Footer Area */
+  footer {
+    padding: 30px 10px;
+  }
+  .footer_content p {
+    padding: 10px;
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  /*Header Area*/
+  .header_content {
+    padding: 10px 10px;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .hc_nav {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .lc_banner img {
+    height: 300px;
+  }
+  /* Lead Area */
+  .lead_content {
+    padding: 10px 10px;
+  }
+  .lc_text h1 {
+    font-size: 45px;
+  }
+  .lc_text p {
+    padding: 0 30px;
+  }
+  /* Features Area */
+  .features_area {
+    padding: 40px 10px;
+  }
+  .features_content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .fc_items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .fc_text {
+    margin-top: 40px;
+  }
+  .fc_text h2 {
+    font-size: 38px;
+  }
+  .fc_description {
+    font-size: 18px;
+  }
+  /* Features Details Area */
+  .features_details {
+    padding: 0px 10px;
+  }
+  .features_details_content {
+    flex-direction: column;
+  }
+  .fdc_text {
+    text-align: center;
+  }
+  #text-item-fdc h1 {
+    font-size: 38px;
+  }
+  #text-item-fdc p {
+    font-size: 17px;
+  }
+  .fdc_text_items h3 {
+    font-size: 22px;
+  }
+  .fdc_text_items p {
+    font-size: 18px;
+  }
+  .fdc_banner img {
+    width: var(--wrapper);
+    height: 500px;
+  }
+  .fdc_ten_year {
+    right: -15%;
+    top: 15px;
+  }
+  /* Some Facts Area */
+  .some_facts {
+    padding: 60px 10px;
+  }
+  .sfc_summary {
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 20px;
+    margin-top: -35px;
+  }
+  .sfc_text {
+    text-align: center;
+  }
+  .sfc_text p {
+    font-size: 18px;
+  }
+  .sfc_text h1 {
+    font-size: 38px;
+  }
+  /* Our Sponspors Area */
+  .our_sponspors {
+    padding: 5px 10px;
+    margin-top: 0px;
+  }
+  .osc_text > h1 {
+    font-size: 38px;
+  }
+  .osc_text > p {
+    font-size: 18px;
+  }
+  .osc_logo_items {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 30px;
+  }
+  .osc_logo_items img {
+    width: 75%;
+    height: 75%;
+    padding: 10px 40px;
+  }
+  /* -- Extra Work Area -- */
+  .extra_work {
+    padding: 30px 10px;
+  }
+  .ew_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .ew_item_content {
+    margin-right: 0;
+  }
+  .ew_item_content:hover {
+    height: 580px;
+  }
+  .ew_ic_thumb {
+    height: 261px;
+  }
+  .ew_ic_thumb img {
+    border: none;
+  }
+  .overlay {
+    height: 210px;
+  }
+  .ew_ic_desc {
+    top: -70px;
+  }
+  /* Footer Area */
+  footer {
+    padding: 30px 10px;
+  }
+  .footer_content p {
+    padding: 10px;
+    font-size: 22px;
+  }
+}
+/*
+********************************
+🙂 Responsive Code End 🙂
+********************************
+*/
