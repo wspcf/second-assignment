@@ -8,8 +8,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Default Font */
 body {
-  font-family: "Work Sans", sans-serif; /* Default Font */
+  font-family: "Work Sans", sans-serif;
+}
+/* Default Button */
+.primary_btn {
+  border: none;
+  padding: 15px 20px;
+  background-color: var(--cprimary);
+  color: var(--cwhite);
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
 }
 /*
 ********************************
@@ -24,10 +35,11 @@ body {
 :root {
   --cwhite: #fff;
   --cblack: #000;
-  --mainbgc: #fff4e7;
   --cprimary: #ff900e;
   --csecondary: #727272;
   --ctertiary: #131313;
+  --quaternary: #fff4e7;
+  --navary: #424242;
   --wrapper: 100%;
   --wrap: 1920px;
   --center: 0 auto;
@@ -43,9 +55,133 @@ body {
 ********************************
 */
 /* Style For Header Area Start */
+header {
+  background-color: var(--quaternary);
+}
 .header_content {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 240px;
+  align-items: center;
+}
+.hc_logo h2 {
+  font-weight: 700;
+  font-size: 45px;
+}
+.hc_nav {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+.hc_nav li {
+  list-style-type: none;
+}
+.hc_nav li a {
+  text-decoration: none;
+  color: var(--navary);
+  font-weight: 500;
+  font-size: 18px;
 }
 /* Style For Header Area End */
+
+/* Style For Main Area Start */
+.container {
+}
+
+/* -- Lead Section -- */
+.lead_area {
+  background-color: var(--quaternary);
+  padding-bottom: 30px;
+}
+.lead_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 240px;
+}
+.lc_text {
+  text-align: center;
+}
+.lc_text h1 {
+  font-weight: 600;
+  font-size: 60px;
+}
+.lc_text p {
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.lc_banner img {
+  width: var(--wrapper);
+  height: 700px;
+  margin-top: 35px;
+}
+/* Features Section */
+.features_area {
+  padding: 60px 240px;
+}
+.features_content {
+  display: flex;
+  align-items: baseline;
+  column-gap: 60px;
+}
+.fc_gallery {
+}
+.fc_items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.fc_items img {
+}
+.fc_text h2 {
+  font-size: 45px;
+}
+.fc_text h2 > span {
+  color: var(--ctertiary);
+  font-weight: 500;
+}
+.fc_text h2 > p {
+  color: var(--cprimary);
+  margin-bottom: 20px;
+}
+.fc_description {
+  color: var(--csecondary);
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+/* Features Details Section */
+.features_details {
+}
+.features_details_content {
+}
+.fdc_text {
+}
+.fdc_text_items {
+}
+.fdc_text_items h1 {
+}
+.fdc_text_items h3 {
+}
+.fdc_text_items p {
+}
+.fdc_banner {
+}
+.fdc_banner img {
+}
+.fdc_ten_year {
+}
+.fdc_ten_year h1 {
+}
+.fdc_ten_year p {
+}
+#text-items-fdc {
+}
+
+/* Style For Main Area End */
+
 /*
 ********************************
 🙂 Default Code End 🙂
