@@ -3,9 +3,6 @@
 🏃 Responsive Code Start 🏃
 ********************************
 */
-@media only screen and (min-width: 993px) {
-}
-
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   /*Header Area*/
   .header_content {
@@ -16,6 +13,7 @@
   .lc_banner img {
     height: 380px;
   }
+
   /* Lead Area */
   .lead_content {
     padding: 10px 10px;
@@ -26,6 +24,7 @@
   .lc_text p {
     padding: 0 30px;
   }
+
   /* Features Area */
   .features_area {
     padding: 70px 10px;
@@ -50,6 +49,7 @@
     font-size: 22px;
     padding: 15px;
   }
+
   /* Features Details Area */
   .features_details {
     padding: 0px 10px;
@@ -84,6 +84,7 @@
     top: 20px;
     text-align: center;
   }
+
   /* Some Facts Area */
   .some_facts {
     padding: 60px 10px;
@@ -105,6 +106,7 @@
   .sfc_text h1 {
     font-size: 38px;
   }
+
   /* Our Sponspors Area */
   .our_sponspors {
     padding: 5px 10px;
@@ -126,6 +128,7 @@
     height: 100%;
     padding: 10px 50px;
   }
+
   /* -- Extra Work Area -- */
   .extra_work {
     padding: 30px 10px;
@@ -158,6 +161,7 @@
   .ew_ic_desc {
     top: -70px;
   }
+
   /* Footer Area */
   footer {
     padding: 30px 10px;
@@ -182,6 +186,7 @@
   .lc_banner img {
     height: 350px;
   }
+
   /* Lead Area */
   .lead_content {
     padding: 10px 10px;
@@ -192,6 +197,7 @@
   .lc_text p {
     padding: 0 30px;
   }
+
   /* Features Area */
   .features_area {
     padding: 70px 10px;
@@ -216,6 +222,7 @@
     font-size: 18px;
     padding: 40px;
   }
+
   /* Features Details Area */
   .features_details {
     padding: 0px 10px;
@@ -250,6 +257,7 @@
     top: 20px;
     text-align: center;
   }
+
   /* Some Facts Area */
   .some_facts {
     padding: 60px 10px;
@@ -270,6 +278,7 @@
   .sfc_text h1 {
     font-size: 38px;
   }
+
   /* Our Sponspors Area */
   .our_sponspors {
     padding: 5px 10px;
@@ -291,6 +300,7 @@
     height: 100%;
     padding: 10px 75px;
   }
+
   /* -- Extra Work Area -- */
   .extra_work {
     padding: 30px 10px;
@@ -323,6 +333,7 @@
   .ew_ic_desc {
     top: -70px;
   }
+
   /* Footer Area */
   footer {
     padding: 30px 10px;
@@ -347,6 +358,7 @@
   .lc_banner img {
     height: 300px;
   }
+
   /* Lead Area */
   .lead_content {
     padding: 10px 10px;
@@ -357,6 +369,7 @@
   .lc_text p {
     padding: 0 30px;
   }
+
   /* Features Area */
   .features_area {
     padding: 40px 10px;
@@ -377,6 +390,7 @@
   .fc_description {
     font-size: 18px;
   }
+
   /* Features Details Area */
   .features_details {
     padding: 0px 10px;
@@ -411,6 +425,7 @@
     top: 20px;
     text-align: center;
   }
+
   /* Some Facts Area */
   .some_facts {
     padding: 60px 10px;
@@ -430,6 +445,7 @@
   .sfc_text h1 {
     font-size: 38px;
   }
+
   /* Our Sponspors Area */
   .our_sponspors {
     padding: 5px 10px;
@@ -450,6 +466,7 @@
     height: 75%;
     padding: 10px 40px;
   }
+
   /* -- Extra Work Area -- */
   .extra_work {
     padding: 30px 10px;
@@ -476,6 +493,7 @@
   .ew_ic_desc {
     top: -70px;
   }
+
   /* Footer Area */
   footer {
     padding: 30px 10px;
