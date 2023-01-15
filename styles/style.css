@@ -209,7 +209,7 @@ header {
   align-items: center;
 }
 .fdc_text {
-  height: 1000px;
+  height: auto;
 }
 #text-item-fdc h1 {
   font-weight: 700;
@@ -241,7 +241,7 @@ header {
   margin-bottom: 10px;
 }
 .fdc_banner img {
-  width: 708px;
+  width: 620px;
   height: 900px;
 }
 .fdc_ten_year {
